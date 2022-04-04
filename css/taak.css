@@ -1,0 +1,141 @@
+.taak_section {
+    background-color: #5C5470;
+}
+
+.taak_section > h2{
+    font-size: 25px;
+}
+
+.taak_div {
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 22px;
+    background-color: #5C5470;
+
+    max-height: 20%;
+    padding: 3%;
+    gap: 15%;
+
+}
+
+.taak_div1 {
+    color: #5B84B1FF;
+    background: #E69A8DFF;
+
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 37px 140px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 110px 19px;
+
+    max-width: 20%;
+
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 3%;
+}
+
+.taak_div1_h2 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.taak_div2 {
+    max-width: 40%;
+}
+
+.taak_div2 > img {
+    padding-top: 25%;
+}
+
+.taak_div3 {
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 22px;
+    background-color: #5C5470;
+
+    padding: 2%;
+    gap: 5%;
+}
+
+.taak_div4 {
+    color: #5B84B1FF;
+    background: #E69A8DFF;
+
+    border-top-left-radius: 110px 19px;
+    border-top-right-radius: 110px 19px;
+    border-bottom-left-radius: 37px 140px;
+    border-bottom-right-radius: 37px 140px;
+
+    max-width: 20%;
+    padding: 3%;
+}
+
+
+/*media*/
+@media (max-width: 1495px ) {
+
+    .taak_div2 {
+        display: none;
+    }
+
+    .taak_div {
+        gap: 10%;
+    }
+
+    .taak_div3 {
+        gap: 10%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .taak_div {
+
+        display: inline;
+
+        justify-content: center;
+
+        background-color: #5C5470;
+
+        max-height: 20%;
+        padding: 3%;
+        gap: 15%;
+    }
+
+    .taak_div1{
+        overflow: auto;
+
+        max-height: 30vh;
+        max-width: 50%;
+
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+    }
+
+    .taak_div4{
+        overflow: auto;
+
+        max-height: 30vh;
+        max-width: 50%;
+
+
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+    }
+
+    .taak_div3 {
+
+        display: inline;
+        justify-content: center;
+
+        border-radius: 0px;
+    }
+}

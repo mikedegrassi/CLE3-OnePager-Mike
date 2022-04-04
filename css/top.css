@@ -1,0 +1,18 @@
+.top_section {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("../tools/topfoto(bewerkt).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top_div {
+    padding-top: 10%;
+    padding-left: 10%;
+    display: flex;
+}
+
+.top_div > img {
+    height: 30%;
+}
